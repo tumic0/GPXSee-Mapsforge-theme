@@ -1,4 +1,9 @@
 # GPXSee Mapsforge maps render theme
+
+![Screenshot - 150km](150km.png)
+![Screenshot - 3km](3km.png)
+![Screenshot - 150m](150m.png)
+
 This is the Mapsforge render theme as used by GPXSee with all the graphics
 resources extracted and paths adjusted (in GPXSee the graphics resources are
 shared across multiple map providers). While you can use the theme
