@@ -1,15 +1,16 @@
 # GPXSee Mapsforge maps render theme
 
-![Screenshot - 150km](150km.png)
-![Screenshot - 3km](3km.png)
-![Screenshot - 150m](150m.png)
-
 This is the Mapsforge render theme as used by GPXSee with all the graphics
 resources extracted and paths adjusted (in GPXSee the graphics resources are
 shared across multiple map providers). While you can use the theme
 "out-of-the-box" in any Mapsforge-compatible application, the main purpose
 of this repository is to provide a reference theme for showing the differences
 between the GPXSee engine and the "official" Mapsforge Java engine.
+
+## Screenshots
+![Screenshot - 150km](150km.png)
+![Screenshot - 3km](3km.png)
+![Screenshot - 150m](150m.png)
 
 ## Known issues
 * The Mapsforge render theme ["specification"](https://github.com/mapsforge/mapsforge/blob/master/docs/Rendertheme.md)
