@@ -26,5 +26,5 @@ between the GPXSee engine and the "official" Mapsforge Java engine.
 
 ## License
 The render theme as well as all graphics except of the POI icons is licensed
-under GPL-3.0 (only). The [POI](POI) icons are Mapbox Maki icons licensed
+under GPL-3.0 (only). The [POI](../POI) icons are Mapbox Maki icons licensed
 under CC0.
