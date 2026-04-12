@@ -15,8 +15,8 @@ between the GPXSee engine and the "official" Mapsforge Java engine.
 ## Known issues
 * The Mapsforge render theme ["specification"](https://github.com/mapsforge/mapsforge/blob/master/docs/Rendertheme.md)
   is not maintained as a specification but rather as a description of
-  "what the current Mapsforge engine does" and [significantly changes](https://github.com/mapsforge/mapsforge/commit/f4c51d6b126669784e25527ebcb5fe5a88049f13)
-  during time without even increasing the version number.
+  "what the current Mapsforge engine does" and introduces [breaking changes](https://github.com/mapsforge/mapsforge/commit/f4c51d6b126669784e25527ebcb5fe5a88049f13)
+  without even increasing the version number.
 * Some specification interpretation of the Mapsforge engine is
   broken by design (e.g. text with `stroke-width` of zero renders 1px stroke
   unlike in any other common specification like CSS or SVG).
