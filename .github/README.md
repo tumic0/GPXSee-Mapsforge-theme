@@ -20,7 +20,10 @@ the GPXSee engine and the "official" Mapsforge Java engine.
   without even increasing the version number.
 * Some "specification" interpretation of the Mapsforge engine is
   broken by design (e.g. text with `stroke-width` of zero renders 1px stroke
-  unlike in any other common standard like CSS or SVG).
+  unlike in any other common standard like CSS or SVG). Another such example
+  is the broken file: URIs handling that is in violation of RFC 8089 and
+  the file: URIs (which are by definition absolute paths) are handled as
+  relative paths.
 * GPXSee does intentionally not support all of the rendering options that
   the Mapsforge engine does and renders some marginal stuff in a slightly
   different way than the Mapsforge engine.
