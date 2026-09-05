@@ -87,13 +87,16 @@
     <rule cat="landuse-winter" e="way" closed="yes" k="leisure" v="park|garden" zoom-min="10">
         <area fill="#f6fbff"/>
     </rule>
-    <rule e="way" closed="yes" k="landuse" v="construction|quarry|landfill|industrial|farm|farmyard|railway">
+    <rule e="way" closed="yes" k="landuse" v="construction|landfill|industrial|farm|farmyard|railway">
         <rule e="way" k="*" v="*" zoom-min="10" zoom-max="14">
             <area fill="#d6d4ce"/>
         </rule>
         <rule e="way" k="*" v="*" zoom-min="15">
             <area fill="#e4e1dc"/>
         </rule>
+    </rule>
+    <rule e="way" closed="yes" k="landuse" v="quarry">
+        <area src="patterns/quarry.svg" symbol-width="7" symbol-height="7"/>
     </rule>
     <rule e="way" closed="yes" k="landuse" v="allotments" zoom-min="10">
         <area fill="#f4e7d5"/>
