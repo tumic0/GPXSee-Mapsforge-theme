@@ -122,7 +122,7 @@
         <area fill="#dcf6ff"/>
     </rule>
     <rule cat="landuse" e="way" closed="yes" k="landuse" v="grass|greenfield|village_green" zoom-min="10">
-        <area fill="#e4efcf"/>
+        <area fill="#f9ffee"/>
     </rule>
     <rule cat="landuse-winter" e="way" closed="yes" k="landuse" v="grass|greenfield|village_green|orchard|vineyard" zoom-min="10">
         <area fill="#f6fbff"/>
